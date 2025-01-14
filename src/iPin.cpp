@@ -1,6 +1,6 @@
 #include "iPin.h"
 
-void iPin::addInputPin(Device* d){
+void iPin::addInputPin(Device* newDivice){
     printf("Error: input pin can't add any input pin\n");
 }
 

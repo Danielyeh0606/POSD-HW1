@@ -1,8 +1,8 @@
 #include "gateNOT.h"
 
-void gateNOT::addInputPin(Device* d){
+void gateNOT::addInputPin(Device* newDivice){
     if(iPins.size() == 0)
-        iPins.push_back(d);
+        iPins.push_back(newDivice);
     else
         printf("Error: NOT gate can't add more than one input pin\n");
 }

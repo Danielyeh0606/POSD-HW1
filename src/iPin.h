@@ -9,7 +9,7 @@ class iPin: public Device{
 
     public:
         void setValue(bool);
-        void addInputPin(Device* d) override;
+        void addInputPin(Device*) override;
         bool getOutput() override;
         string getType() override;
 };

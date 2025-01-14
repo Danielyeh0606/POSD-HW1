@@ -1,8 +1,8 @@
 #include "oPin.h"
 
-void oPin::addInputPin(Device* d){
+void oPin::addInputPin(Device* newDivice){
     if(iPins.size() == 0)
-        iPins.push_back(d);
+        iPins.push_back(newDivice);
     else
         printf("Error: output pin can't add more than one input pin\n");
 }

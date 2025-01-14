@@ -1,7 +1,7 @@
 #include "Device.h"
 
-void Device::addInputPin(Device* d){
-    iPins.push_back(d);
+void Device::addInputPin(Device* newDivice){
+    iPins.push_back(newDivice);
 }
 
 int Device::getiPinSize(){

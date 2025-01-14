@@ -187,6 +187,7 @@ void TextUI::displayTruthTable(){
 }
 
 void TextUI::Exit(){
+    printf("Goodbye, thanks for using LS.");
     Circuit.clearDevice();
     exit(0);
 }
