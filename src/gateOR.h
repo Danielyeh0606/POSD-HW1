@@ -4,6 +4,7 @@
 
 class gateOR: public Device{
     public:
+        ~gateOR() override{};
         bool getOutput() override;
         string getType() override;
 };

@@ -8,6 +8,7 @@ class Device{
     protected:
         vector<Device*> iPins;
     public:
+        virtual ~Device();
         virtual void addInputPin(Device*);
         virtual bool getOutput() = 0;
         virtual string getType() = 0;

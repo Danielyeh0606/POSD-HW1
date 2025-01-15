@@ -41,7 +41,7 @@ void LogicSimulator::initDevice(int input_size, int gate_size){
     clearDevice();
 
     iPins.resize(input_size);
-    circuit.resize(gate_size);
+    circuit.resize(gate_size, nullptr);
     gate_is_connect.resize(gate_size);
 
     for(int i = 0; i < input_size; i++){

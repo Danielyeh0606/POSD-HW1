@@ -8,6 +8,7 @@ class iPin: public Device{
         bool value;
 
     public:
+        ~iPin() override{};
         void setValue(bool);
         void addInputPin(Device*) override;
         bool getOutput() override;

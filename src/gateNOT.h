@@ -5,6 +5,7 @@
 
 class gateNOT: public Device{
     public:
+        ~gateNOT() override{};
         void addInputPin(Device*) override;
         bool getOutput() override;
         string getType() override;
